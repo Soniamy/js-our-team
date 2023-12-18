@@ -39,9 +39,9 @@ const teamList = [
 //}
 // MILESTONE 2:
 //Stampare le stesse informazioni su DOM sottoforma di stringhe
-const cardsContainer = document.getElementById('cards-container');
-for (let i = 0; i < teamList.length; i++) {
-    cardsContainer.innerHTML += teamList[i].name;
-    cardsContainer.innerHTML += teamList[i].role;
-    cardsContainer.innerHTML += teamList[i].image;
-}
+//const cardsContainer = document.getElementById('cards-container');
+//for (let i = 0; i < teamList.length; i++) {
+//    cardsContainer.innerHTML += teamList[i].name;
+//    cardsContainer.innerHTML += teamList[i].role;
+//    cardsContainer.innerHTML += teamList[i].image;
+//}
