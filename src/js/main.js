@@ -34,6 +34,14 @@ const teamList = [
 ];
 // MILESTONE 1:
 // Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+//for (let i = 0; i < teamList.length; i++) {
+//console.log(teamList[i]);
+//}
+// MILESTONE 2:
+//Stampare le stesse informazioni su DOM sottoforma di stringhe
+const cardsContainer = document.getElementById('cards-container');
 for (let i = 0; i < teamList.length; i++) {
-    console.log(teamList[i]);
+    cardsContainer.innerHTML += teamList[i].name;
+    cardsContainer.innerHTML += teamList[i].role;
+    cardsContainer.innerHTML += teamList[i].image;
 }
