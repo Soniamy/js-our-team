@@ -32,3 +32,8 @@ const teamList = [
         image: 'barbara-ramos-graphic-designer.jpg',
     },
 ];
+// MILESTONE 1:
+// Stampare su console, per ogni membro del team, le informazioni di nome, ruolo e la stringa della foto
+for (let i = 0; i < teamList.length; i++) {
+    console.log(teamList[i]);
+}
